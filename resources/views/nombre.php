@@ -3,7 +3,7 @@
     <title>Prueba de Laravel</title>
 </head>
 <body>
-<form method="POST" action="Controller" name="form1">
+<form method="get" action="Controller/" name="form1">
     <div>
         <h2>Prueba de proyecto</h2>
     </div>

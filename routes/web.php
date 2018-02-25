@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('Controller','ControladorInicio@inicio');
+Route::post('/Controller','ControladorInicio@inicio');

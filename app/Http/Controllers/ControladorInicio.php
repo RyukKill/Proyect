@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
-class ControladorInicio extends BaseController
+use Illuminate\Support\Facades\Input;
+
+class ControladorInicio extends Controller
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    //use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function inicio (){
-        $nom=$this->post('txtnome');
-        return "Fernando";
+        $nombre = Input::post('txtnome');
+        return $nombre;
     }
 }
