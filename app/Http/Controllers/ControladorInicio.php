@@ -9,7 +9,7 @@ class ControladorInicio extends Controller
     //use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function inicio (){
-        $nombre = Input::post('txtnome');
-        return $nombre;
+        $nombre['nombree'] = Input::post('txtnome');
+        return view('nombre',$nombre);
     }
 }
