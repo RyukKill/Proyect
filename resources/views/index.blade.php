@@ -12,6 +12,7 @@
         <input name="txtnome" type="text">
         <input value="Seguir" name="btnSeguir" type="submit">
     </div>
+
 </form>
 </body>
 </html>
